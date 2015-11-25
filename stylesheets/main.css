@@ -36,7 +36,7 @@ div {height: 500px;
 .family{
     background-image: url("../images/peoplepower.JPG");
 }
-p {color: rgba(255,255,255,1);
+p {color: #004C99;
     text-align:center;
     font-size:30px;
     padding:250px;
