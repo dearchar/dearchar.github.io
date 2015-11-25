@@ -1,35 +1,49 @@
-header {
-        background-color:#6666FF;
+body {background-color: rgba(255,255,255,1);
+    font-family: 'Overlock', cursive;
+    }
+header {background-color:rgba(0,051,102,1);
         color:lightgrey;
         text-align:center;
         padding:5px;
-            }  
-h1 {
-        font-size: 60px;
+        }  
+h1 {font-size: 60px;
     }    
-ul {
-        padding:10px;
-        text-align:center;
-        background:green;
-        border: 2px solid white;
+ul {padding:10px;
+    text-align:center;
     }
-li {
-        display: inline;
-        padding: 0px 10px 0px 10px;
+li {display: inline;
+    padding: 0px 20px 0px 20px;
+    font-size: 20px;
+    color:rgba(255,255,255,1);
     }
-div {
-        padding:5px;
-        background: url("https://images.unsplash.com/photo-1440470177828-6381dc5074ba?fit=crop&fm=jpg&h=650&ixlib=rb-0.3.5&q=80&w=1050");        
-        }
-h3 {
-        text-align:center; 
-        color:#6666FF;
+div {height: 500px;
+    background-size: cover;
+    margin: -5px 0 0 0;  
+    position: relative;     
     }
-p { 
-        padding:20px;
-        text-align:center;    
+.intro{
+    background-image: url("../images/brightspark.JPG");
+}
+.tech{
+    background-image: url("../images/doves_of_peace.JPG");
+}
+.opportunity{
+    background-image: url("../images/lonely_clouds.JPG");
+}
+.education{
+    background-image: url("../images/books.jpg");
+}
+.family{
+    background-image: url("../images/peoplepower.JPG");
+}
+p {color: rgba(255,255,255,1);
+    text-align:center;
+    font-size:30px;
+    padding:250px;
     }
-img {
-        border: 5px solid white;
-        border-radius: 5px;
-    }
+
+@media (max-width: 500px) {
+      h1 { font-size: 36px;}
+      li {display: block;
+      padding: 5px;}
+      }
